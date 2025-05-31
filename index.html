@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ShelfLife Patrol</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Roboto', sans-serif;
       margin: 0;
       padding: 0;
       background-color: #f4f4f4;
@@ -19,7 +20,7 @@
       text-align: center;
     }
     header img {
-      width: 150px;
+      width: 120px;
       margin: 1rem auto;
       display: block;
     }
@@ -33,26 +34,37 @@
     nav a {
       color: white;
       text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
     }
     nav a:hover {
-      text-decoration: underline;
+      color: #ffd166;
     }
     main {
       padding: 2rem;
+      max-width: 800px;
+      margin: auto;
       text-align: center;
     }
     main img {
       width: 200px;
       margin: 1rem auto;
+      display: block;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    section {
+      margin-bottom: 2rem;
+      background-color: white;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
     footer {
       background-color: #005f73;
       color: white;
       text-align: center;
       padding: 1rem;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
     }
   </style>
 </head>
@@ -69,17 +81,20 @@
   </nav>
   <main>
     <section id="about">
+      <img src="images/shelf_life_patrol_transparent.png" alt="ShelfLife Patrol Logo">
       <h2>About Us</h2>
-      <p>ShelfLife Patrol is a specialized service for EMS agencies, ensuring your medical supplies are always in date and ready to go.</p>
+      <p>ShelfLife Patrol is a specialized service for EMS agencies, ensuring your medical supplies are always in date and ready to go. Our innovative scanner tool makes expiration date tracking easy and efficient.</p>
     </section>
     <section id="services">
+      <img src="images/shelf_life_patrol_transparent.png" alt="ShelfLife Patrol Logo">
       <h2>Our Services</h2>
-      <p>We provide monthly expiration checks, digital tracking, and on-demand data for your ambulances and medical cabinets.</p>
+      <p>We provide monthly expiration checks, digital tracking, and on-demand data for your ambulances and medical cabinets, reducing risk and ensuring compliance.</p>
     </section>
     <section id="contact">
+      <img src="images/shelf_life_patrol_transparent.png" alt="ShelfLife Patrol Logo">
       <h2>Contact Us</h2>
-      <p>Email: contact@shelflifepatrol.com</p>
-      <p>Phone: (555) 555-5555</p>
+      <p>Email: <a href="mailto:contact@shelflifepatrol.com" style="color: #0a9396; font-weight: bold;">contact@shelflifepatrol.com</a></p>
+      <p>Phone: <a href="tel:5555555555" style="color: #0a9396; font-weight: bold;">(555) 555-5555</a></p>
     </section>
   </main>
   <footer>
