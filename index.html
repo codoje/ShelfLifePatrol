@@ -13,17 +13,26 @@
       margin: 0;
       padding: 0;
     }
-    header, nav, main, footer {
-      max-width: 800px;
-      margin: auto;
-      padding: 1rem;
-    }
     header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
       background-color: #005f73;
       color: white;
-      text-align: center;
       border-radius: 8px;
+      padding: 1rem;
       margin-bottom: 1rem;
+    }
+    header img {
+      width: 50px;
+      height: auto;
+      border-radius: 4px;
+      margin-right: 1rem;
+    }
+    header h1 {
+      margin: 0;
+      flex-grow: 1;
+    }
     }
     nav {
       background-color: #0a9396;
@@ -66,8 +75,8 @@
 </head>
 <body>
   <header>
+    <img src="images/shelf_life_patrol_transparent.png" alt="ShelfLife Patrol Logo">
     <h1>ShelfLife Patrol</h1>
-    <p>Streamlined Expiration Date Tracking for EMS Supplies</p>
   </header>
   <nav>
     <a href="#about">About</a>
